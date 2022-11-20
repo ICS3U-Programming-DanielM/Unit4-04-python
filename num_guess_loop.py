@@ -14,7 +14,7 @@ def main():
 
     while True:
         # Get the user input
-        user_input = input("Guess the number between 0 and 9 (positive number only): ")
+        user_input = input("Guess the number between 0 and 9: ")
         try:
             # changes user input to an integer
             user_number = int(user_input)
@@ -40,7 +40,6 @@ def main():
         else:
             print("THIS IS NOT BETWEEN 0 AND 9.")
             print()
-
 
 
 if __name__ == "__main__":
